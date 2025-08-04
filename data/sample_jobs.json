@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "role_id": "dev001",
+      "title": "Senior Python Developer",
+      "company": "Tech Innovations Inc.",
+      "required_skills": ["python", "django", "postgresql", "aws", "git"],
+      "preferred_skills": ["react", "docker", "kubernetes", "redis"],
+      "min_experience_months": 36,
+      "description": "We're looking for a senior Python developer to join our growing team...",
+      "salary_range": [80000, 120000],
+      "location": "Remote",
+      "job_type": "Full-time"
+    },
+    {
+      "role_id": "ds001", 
+      "title": "Data Scientist",
+      "company": "Analytics Pro",
+      "required_skills": ["python", "machine learning", "pandas", "scikit-learn", "sql"],
+      "preferred_skills": ["tensorflow", "pytorch", "aws", "spark", "tableau"],
+      "min_experience_months": 24,
+      "description": "Join our data science team to build ML models...",
+      "salary_range": [90000, 140000],
+      "location": "New York, NY",
+      "job_type": "Full-time"
+    }
+  ]
+}
