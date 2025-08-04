@@ -24,3 +24,23 @@ An intelligent resume analysis and job matching system powered by NLP and machin
    ```bash
    git clone https://github.com/yourusername/ai-resume-analyzer.git
    cd ai-resume-analyzer
+2. Install dependencies
+bashpip install -r requirements.txt
+python -m spacy download en_core_web_sm
+
+3. Set up MongoDB (optional)
+bash# Install MongoDB or use MongoDB Atlas
+# Update connection string in config.json
+
+4. Run the application
+bashstreamlit run resume_analyzer.py
+
+
+📖 Usage
+Web Interface
+
+Navigate to http://localhost:8501
+Upload your PDF resume
+View detailed skill analysis and proficiency scores
+Get personalized job recommendations
+Analyze skill gaps for target roles
