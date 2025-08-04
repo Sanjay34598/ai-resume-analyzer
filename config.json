@@ -1,0 +1,12 @@
+{
+  "mongodb_uri": "mongodb://localhost:27017/",
+  "database_name": "resume_analyzer",
+  "max_file_size_mb": 10,
+  "supported_formats": [".pdf", ".docx"],
+  "skill_confidence_threshold": 0.3,
+  "match_score_threshold": 0.4,
+  "max_matches_returned": 10,
+  "enable_logging": true,
+  "log_level": "INFO",
+  "cache_duration_hours": 24
+}
